@@ -100,5 +100,11 @@ namespace algorithm
             labResult.Text = nResult.ToString();
         }
         #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GridView FormGridView = new GridView();
+            FormGridView.Visible = true;
+        }
     }
 }
